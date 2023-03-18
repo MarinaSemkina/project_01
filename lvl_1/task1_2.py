@@ -29,7 +29,7 @@ if sec > 60:
     sec = sec - 60
     min += 1
 time = datetime.time(0, min, int(round(sec, 2)) )
-print(f"Три песни {g[0]}, {g[1]}, {g[2]}, звучат {time}" )
+print(f"Три песни звучат {time}" )
 
 
 
